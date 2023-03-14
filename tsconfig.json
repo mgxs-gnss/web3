@@ -2,7 +2,9 @@
   "compilerOptions": {
     "module": "commonjs",
     "declaration": true,
-    "outDir": "lib/"
+    "allowJs": true,
+    "outDir": "lib/",
+    "noImplicitAny": false
   },
   "files": ["index.js"]
 }
