@@ -1,14 +1,14 @@
 {
   "name": "@gnss/web3",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "GNSS web3",
-  "main": "index.js",
-  "typings": "index",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "files": [
-    "."
+    "lib"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepublish": "tsc"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/mgxs-gnss/web3/issues"
   },
-  "homepage": "https://github.com/mgxs-gnss/web3#readme"
+  "homepage": "https://github.com/mgxs-gnss/web3#readme",
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
 }
