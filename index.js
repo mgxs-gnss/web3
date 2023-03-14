@@ -1,2 +1,2 @@
-export * from "./abis/mint";
-export * from "./abis/seed";
+export * from "./mint";
+export * from "./seed";
