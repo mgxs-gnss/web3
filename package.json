@@ -1,9 +1,9 @@
 {
   "name": "@gnss/web3",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "GNSS web3",
-  "main": "index.js",
-  "typings": "index",
+  "main": "./index.js",
+  "typings": "./index.d.ts",
   "files": [
     "abis/"
   ],
