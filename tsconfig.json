@@ -1,18 +1,14 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "es6",
     "module": "esnext",
     "lib": ["es5", "dom", "es2015", "es2015.collection"],
     "declaration": true,
-    "declarationMap": true,
     "sourceMap": true,
     "outDir": "lib",
-
     "strict": false,
-
     "moduleResolution": "node",
     "esModuleInterop": true,
-
     "forceConsistentCasingInFileNames": true
   },
   "include": ["src/**/*.ts"],

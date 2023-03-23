@@ -1,5 +1,4 @@
-export * from "./abis/reveal";
-export * from "./abis/mint";
+export * from "./abis";
 
 export const CONTRACT_MINT_ADDRESS =
   "0xA6A5eC7b1B8A34Ff2dcb2926b7c78f52A5ce3b90";
