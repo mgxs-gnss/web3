@@ -1,6 +1,6 @@
 {
   "name": "@gnss/web3",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "GNSS web3",
   "main": "lib/index.cjs",
   "module": "lib/index-es.js",
