@@ -1,6 +1,6 @@
 {
   "name": "@gnss/web3",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "GNSS web3",
   "main": "lib/index.cjs",
   "module": "lib/index-es.js",
@@ -10,7 +10,7 @@
     "lib"
   ],
   "scripts": {
-    "build": "rimraf dist && rollup --config"
+    "build": "rimraf lib && rollup --config"
   },
   "repository": {
     "type": "git",
