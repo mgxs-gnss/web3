@@ -5,7 +5,6 @@
   "main": "lib/index.cjs",
   "module": "lib/index-es.js",
   "types": "lib/index.d.ts",
-  "type": "module",
   "files": [
     "lib"
   ],
